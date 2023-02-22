@@ -1,0 +1,282 @@
+html {
+    background: linear-gradient(90deg, rgba(243, 247, 247, 1) 0%, rgba(142, 226, 255, 1) 26%, rgba(200, 231, 255, 1) 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+footer {
+    background-color: #AE9249;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+footer p {
+    font-size: .5em;
+    text-align: center;
+
+}
+
+.pass {
+    width: 350px;
+    height: 600px;
+    background-color: transparent;
+}
+
+.boardingHeader {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #AE9249;
+    height: 75px;
+    width: 100%;
+    border-radius: .8em;
+
+    /* background-color: aqua; */
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    margin-top: 4%;
+}
+
+.boardingHeader:hover {
+    margin-bottom: 10px;
+    transition: 1s;
+
+}
+
+.header {
+    width: 100%;
+}
+
+section {
+    padding: 0 1%;
+    box-sizing: border-box;
+}
+
+img {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.An {
+    font-weight: 300;
+    font-size: 1.8em;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.FlightTitle {
+
+    display: block;
+    text-align: right;
+    font-size: .6em;
+}
+
+.Flightdata {
+    font-weight: 300;
+    font-size: 1em;
+    text-align: right;
+    display: block;
+}
+
+.boardingbottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #AE9249;
+    height: 400px;
+    width: 100%;
+    border-radius: .8em;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 4px 7px 5em white;
+}
+
+.containerOne {
+    flex-grow: 1;
+    /* flex-basis: 200px; */
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.containerTwo {
+    flex-grow: 2;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.containerThree {
+    flex-grow: 2;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.containerOne div {
+    flex-grow: 2;
+    margin: 0 2px;
+}
+
+.containerOne div p {
+    margin: 0;
+
+}
+
+.containerOne div:nth-of-type(1) {
+    text-align: left;
+    margin-left: .5em;
+}
+
+.containerOne div:nth-of-type(2) {
+    text-align: right;
+    margin-right: .5em;
+}
+
+.from {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: .6em;
+    text-align: right;
+}
+
+
+.dest {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: .6em;
+    text-align: left;
+}
+
+.from>p span {
+    font-weight: 200;
+    font-size: 4em;
+    text-align: right;
+
+
+}
+
+.dest>p span {
+    font-weight: 200;
+    font-size: 4em;
+    text-align: left;
+}
+
+.containerTwo div {
+    flex-grow: 2;
+    margin: 0 0;
+}
+
+.containerTwo div p {
+    margin: 0;
+}
+
+.containerTwo div:nth-of-type(1) {
+    text-align: left;
+    margin-left: .5em;
+}
+
+.containerTwo div:nth-of-type(2) {
+    text-align: right;
+    margin-right: .5em;
+}
+
+.depart {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: .6em;
+    padding: 5% 0;
+
+}
+
+.depart span {
+    font-weight: 200;
+    font-size: 2em;
+}
+
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: .6em;
+    padding: 5% 0;
+}
+
+.name span {
+    font-weight: 200;
+    font-size: 2em;
+}
+
+.class {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: .6em;
+    padding: 5% 0;
+}
+
+.class span {
+    font-weight: 200;
+    font-size: 2.3em;
+}
+
+.tier {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: .6em;
+    padding: 5% 0;
+}
+
+.tier span {
+    font-weight: 200;
+    font-size: 2.3em;
+}
+
+
+
+.qr {
+
+    width: 125px;
+    height: 125px;
+    align-self: center;
+    border-radius: 5%;
+}
+
+.info-img {
+    width: 20px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    /* background-color: red; */
+    height: 20px;
+
+}
